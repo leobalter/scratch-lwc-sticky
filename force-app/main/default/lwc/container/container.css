@@ -1,0 +1,15 @@
+:host {
+    position: relative;
+}
+
+c-header {
+    position: sticky;
+    top: 100px;
+    margin: 12px 0;
+}
+
+@media (max-width: 980px) {
+    c-header {
+        top: 150px;
+    }
+}
